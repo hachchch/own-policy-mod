@@ -1,0 +1,92 @@
+[
+	{
+		"name": "政権",
+		"era": "Ancient era",
+		"uniques": ["[+3 Culture] in capital","-[25]% Culture cost of acquiring tiles [in all cities]","Unlocks building the Hanging Gardens"],
+		"policies": [
+			{
+				"name": "公共事業",
+				"uniques": ["+[15]% Production when constructing [Wonders]","[+1 Happiness] per [10] population in all cities"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "基礎知識",
+				"uniques": ["Immediately creates a cheapest available science building in each of your first 4 cities for free"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "官僚",
+				"uniques": ["Units in cities cost no Maintenance","+33% attacking strength for cities with garrisoned units"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "官吏",
+				"uniques": ["+[10]% growth [in capital]","[+2 Food] [in capital]"],
+				"requires": ["Legalism"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "権威主義",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]"],
+				"requires": ["Legalism"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "政権コンプリート",
+				"uniques": ["+[15]% growth [in all cities]","[+2 Food] [in all cities]"]
+			}
+		]
+	},
+	{
+		"name": "芸術",
+		"era": "Classical era",
+		"uniques": ["[Great Artist] is earned [50]% faster","Unlocks building the Uffizi"],
+		"policies": [
+			{
+				"name": "文化センター",
+				"uniques": ["[+1 Happiness] from every [Monument]","[+1 Happiness] from every [Temple]",
+					"[+1 Happiness] from every [Monastery]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "ファインアート",
+				"uniques": ["50% of excess happiness added to culture towards policies"],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "観光業界",
+				"uniques": ["+[33]% [Culture] [in all cities with a world wonder]","Empire enters golden age"],
+				"requires": ["Cultural Centers","Fine Arts"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "文才",
+				"uniques": ["Free [Great Artist] appears"],
+				"requires": ["Cultural Centers","Fine Arts"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "文化的遷移",
+				"uniques": ["+[25]% [Culture] [in all cities]","[+1 Culture] from every [Land Trade Route (Food)]",
+					"[+1 Culture] from every [Land Trade Route (Production)]","[+1 Culture] from every [Land Trade Route (Gold)]",
+					"[+1 Culture] from every [Sea Trade Route (Food)]","[+1 Culture] from every [Sea Trade Route (Production)]",
+					"[+1 Culture] from every [Sea Trade Route (Gold)]"],
+				"requires": ["Flourishing of the Arts"],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "芸術コンプリート",
+				"uniques": ["+[25]% [Culture] [in all cities with a world wonder]","+[25]% [Culture] from every [Museum]"]
+			}
+		]
+	},
